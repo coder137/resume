@@ -1,12 +1,18 @@
 # Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+- skill: Programming Languages
+  description: C, C++, Python, Dart
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+- skill: 32-bit Microcontroller
+  description: NXP LPC4078, ESP8266/12E/32 WiFi Chip, ARM Cortex M3 STM32L1, ARM Cortex M4 STM32L4, TI TM4C123G
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: Microprocessor
+  description: Raspberry Pi, BG96, M18Q2F (GPS and LTE based)
+
+- skill: Protocols and Technology
+  description: UART, SPI, I2C, CAN, HTTP/HTTPS, MQTT, TCP/IP, UDP, BLE, GPS
+
+- skill: Software
+  description: Embedded Linux, FreeRTOS, Zephyr OS, Git, Flutter, Android
+
+- skill: Tools
+  description: Logic Analyzer, Kiel uVision, STM32CubeIde, VSCode, Codeblocks, Eclipse
