@@ -92,6 +92,10 @@ a {
   background-color: transparent;
 }
 
+a:-webkit-any-link {
+  color: black;
+}
+
 /**
  * Improve readability of focused elements when they are also in an
  * active/hover state.

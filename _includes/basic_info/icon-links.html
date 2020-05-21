@@ -1,0 +1,16 @@
+<!-- and guess where these are defined? Yup, you guessed it: the _config.yml file -->
+{% if site.resume_social_links %}
+<ul class="icon-links">
+
+  {% for link in site.resume_icon_links %}
+
+  <a href="{{ link.url }}" class="icon-link-item" style="color: #{{ link.color | default: FFFFFF }};">
+    <span style="font-size: 28px; line-height: 24px;">
+      <i class="{{ link.icon | default: 'fas fa-link' }}"></i>
+    </span>
+  </a>
+
+  {% endfor %}
+
+</ul>
+{% endif %}

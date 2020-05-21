@@ -9,10 +9,23 @@ sass:
   style: compressed
 
 # Resume settings
-resume_avatar: "true"
-# TODO, Put your avatar image here
+resume_avatar_url: images/avatar.jpg
 resume_name: "Niket Naidu"
 resume_title: "Embedded Systems Developer"
+
+resume_icon_links:
+  - label: "Linkedin"
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/niket-naidu-30090a134/"
+    color: 2867B2
+  - label: "Github"
+    icon: "fab fa-github"
+    url: "https://www.github.com/coder137"
+    color: 211F1F
+  - label: "GitLab"
+    icon: "fab fa-gitlab"
+    url: "https://gitlab.com/coder137"
+    color: e24329
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email: "niketnaiduus@gmail.com"

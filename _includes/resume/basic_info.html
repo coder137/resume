@@ -3,18 +3,12 @@
 <header class="page-header">
 
   <!-- You can turn off the avatar in _config.yml by setting to false -->
-  {% if site.resume_avatar == 'true' %}
-  <!-- TODO, Update this avatar.jpg from _config.yml -->
-  <img src="images/avatar.jpg" alt="my photo" class="avatar no-print" itemprop="image">
+  {% if site.resume_avatar_url %}
+  <img src={{ site.resume_avatar_url  | relative_url }} alt="my photo" class="avatar no-print" itemprop="image">
   {% endif %}
 
   <!-- Your name is defined in the _config.yml file -->
   <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
-
-  <!-- TODO, Remove this later -->
-  <div class="header-contact-info">
-     <a href="mailto:{{ site.resume_contact_email }}" itemprop="email"><p>{{ site.resume_contact_email }}</p></a>
-  </div>
 
   <!-- To display contact info here, change `display_header_contact_info` value in _config.yml to true -->
   <!-- {% if site.display_header_contact_info == 'true' %}
@@ -29,10 +23,10 @@
     <h2 class="header-title" itemprop="jobTitle">{{ site.resume_title }}</h2>
 
     <!-- This is the markup for the icon links; moved out to an include because it's very verbose, and you shouldn't ever need to edit the markup (unless you want to re-order the icons); if you want to customize which links appear, define them in the _config.yml file -->
-    <!-- TODO, Update this with font-awesome icons -->
+    <!-- DONE, Update this with font-awesome icons -->
     <!-- TODO, Add the email link here -->
-    <!-- TODO, Make the icons look better -->
-    {% include icon-links.html %}
+    <!-- DONE, Make the icons look better -->
+    {% include basic_info/icon-links.html %}
   </div>
 
   <div class="executive-summary" itemprop="description">
