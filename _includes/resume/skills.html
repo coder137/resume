@@ -5,10 +5,45 @@
   <header class="section-header">
     <h2>Skills</h2>
   </header>
+
+  <span class="resume-label master">Master</span>
+  <span class="resume-label intermediate">Intermediate</span>
+  <span class="resume-label novice">Novice</span>
+  <br><br>
+
+
   {% for skill in site.data.skills %}
   <div class="resume-item">
     <h4 class="resume-item-details">{{ skill.skill }}</h4>
-    <p class="resume-item-copy">{{ skill.description }}</p>
+
+    <!-- Mastery -->
+    {% for idesc in skill.description %}
+    {% if idesc.mastery == 'master' %}
+    <span class="resume-label {{ idesc.mastery }}">{{ idesc.topic }}</span>
+    {% endif %}
+    {% endfor %}
+
+    <!-- Intermediate -->
+    {% for idesc in skill.description %}
+    {% if idesc.mastery == 'intermediate' %}
+    <span class="resume-label {{ idesc.mastery }}">{{ idesc.topic }}</span>
+    {% endif %}
+    {% endfor %}
+
+    <!-- Novice -->
+    {% for idesc in skill.description %}
+    {% if idesc.mastery == 'novice' %}
+    <span class="resume-label {{ idesc.mastery }}">{{ idesc.topic }}</span>
+    {% endif %}
+    {% endfor %}
+
+    <!-- Unlisted -->
+    {% for idesc in skill.description %}
+    {% if idesc.mastery == null %}
+    <span class="resume-label {{ idesc.mastery }}">{{ idesc.topic }}</span>
+    {% endif %}
+    {% endfor %}
+
   </div>
   {% endfor %}
 

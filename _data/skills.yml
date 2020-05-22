@@ -1,18 +1,91 @@
 # Skills
 - skill: Programming Languages
-  description: C, C++, Python, Dart
+  description:
+    - topic: C
+      mastery: master
+    - topic: Python
+      mastery: master
+    - topic: C++
+      mastery: intermediate
+    - topic: Dart
+      mastery: intermediate
 
 - skill: 32-bit Microcontroller
-  description: NXP LPC4078, ESP8266/12E/32 WiFi Chip, ARM Cortex M3 STM32L1, ARM Cortex M4 STM32L4, TI TM4C123G
+  description: 
+    - topic: NXP LPC4078
+      mastery: master
+    - topic: ESP8266/12E/32 WiFi Chip
+      mastery: master
+    - topic: ARM Cortex M4 STM32L4
+      mastery: intermediate
+    - topic: TI TM4C123G
+      mastery: intermediate
 
 - skill: Microprocessor
-  description: Raspberry Pi, BG96, M18Q2F (GPS and LTE based)
+  description: 
+    - topic: Raspberry Pi
+      mastery: intermediate
+    - topic: BG96
+      mastery: intermediate
+    - topic: M18Q2F
+      mastery: intermediate
 
-- skill: Protocols and Technology
-  description: UART, SPI, I2C, CAN, HTTP/HTTPS, MQTT, TCP/IP, UDP, BLE, GPS
+- skill: Protocols
+  description: 
+    - topic: UART
+      mastery: master
+    - topic: SPI
+      mastery: master
+    - topic: I2C
+      mastery: master
+    - topic: CAN
+      mastery: intermediate
+    - topic: HTTP/HTTPS
+      mastery: intermediate
+    - topic: MQTT
+      mastery: intermediate
+    - topic: TCP/IP
+      mastery: novice
+    - topic: UDP
+      mastery: novice
+
+- skill: Technology
+  description: 
+    - topic: BLE
+      mastery: intermediate
+    - topic: GPS
+      mastery: master
+    - topic: Lidar
+      mastery: intermediate
+    - topic: Compass
+      mastery: master
 
 - skill: Software
-  description: Embedded Linux, FreeRTOS, Zephyr OS, Git, Flutter, Android
+  description: 
+    - topic: Embedded Linux
+      mastery: novice
+    - topic: FreeRTOS
+      mastery: master
+    - topic: Zephyr OS
+      mastery: intermediate
+    - topic: Git
+      mastery: intermediate
+    - topic: Flutter
+      mastery: intermediate
+    - topic: Android
+      mastery: intermediate
 
 - skill: Tools
-  description: Logic Analyzer, Kiel uVision, STM32CubeIde, VSCode, Codeblocks, Eclipse
+  description: 
+    - topic: Logic Analyzer
+      mastery: master
+    - topic: Kiel uVision
+      mastery: intermediate
+    - topic: STM32CubeIde
+      mastery: master
+    - topic: VSCode
+      mastery: master
+    - topic: Codeblocks
+      mastery: master
+    - topic: Eclipse
+      mastery: intermediate

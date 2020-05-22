@@ -135,6 +135,25 @@
 .content-section {
   margin: 0 0 3rem;
 
+  .resume-label {
+    color: white;
+    padding: 8px;
+    line-height: 2.5em;
+    background-color: grey;
+  }
+
+  .novice {
+    background-color: #437EAC;
+  }
+
+  .intermediate {
+    background-color: #1C4674;
+  }
+
+  .master {
+    background-color: #0F355A;
+  }
+
   .resume-item { margin-bottom: 2rem; }
 
   .resume-item-title {

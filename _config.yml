@@ -25,7 +25,15 @@ resume_icon_links:
   - label: "GitLab"
     icon: "fab fa-gitlab"
     url: "https://gitlab.com/coder137"
-    color: e24329
+    color: E24329
+  - label: "Email"
+    icon: "far fa-envelope"
+    url: "mailto:niketnaiduus@gmail.com"
+    color: B23121
+  - label: "Website Blog"
+    icon: "fas fa-rss"
+    url: "https://coder137.github.io/blog/"
+    color: EE802F
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email: "niketnaiduus@gmail.com"

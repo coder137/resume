@@ -2,7 +2,9 @@
 
 *A simple Jekyll + GitHub Pages powered resume template.*
 
-![img](images/screenshot.png)
+# Important Links
+
+[W3Schools How To HTML Templates](https://www.w3schools.com/howto/)
 
 ## Docs
 
