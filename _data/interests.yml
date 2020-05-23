@@ -1,4 +1,20 @@
 # Interests
-- description: Human rights and world affairs
-- description: Music (baritone saxiphonist)
-- description: Linguistics
+# - heading: Reading
+#   subheading:
+#       - Fiction and Fantasy Books
+#       - Manga
+#       - Webnovels
+
+# - heading: Gaming
+#   subheading:
+#     - Dota 2
+#     - RPG/MMORPG
+
+- heading: Neural Networks
+  subheading:
+
+- heading: Game Programming
+  subheading:
+    - SDL (C)
+    - SFML (C++)
+    - Godot Game Engine

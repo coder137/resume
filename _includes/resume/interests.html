@@ -3,15 +3,21 @@
 <section class="content-section">
 
   <header class="section-header">
-    <h2>Outside Interests</h2>
+    <h2>Interests</h2>
   </header>
 
   <div class="resume-item">
-    <ul class="resume-item-list">
       {% for interest in site.data.interests %}
-      <li>{{ interest.description }}</li>
+
+      <h3 style="margin: 5px;">{{ interest.heading }}</h3>
+      
+      <ul class="resume-item-list" style="margin: 5px;">
+        {% for subheading in interest.subheading %}
+        <li>{{ subheading }}</li>
+        {% endfor %}
+      </ul>
+
       {% endfor %}
-    </ul>
   </div>
 
 </section>
