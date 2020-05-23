@@ -25,7 +25,7 @@
 
     <!-- Job Links -->
     {% if job.links %}
-    <h4 class="resume-item-details" itemprop="description">Links</h4>
+    <h4 class="resume-item-details" itemprop="links">Links</h4>
     <ul class="resume-item-list">
       {% for link in job.links %}
       <li><a href="{{ link.url }}">{{ link.name }}</a></li>

@@ -9,6 +9,10 @@
       mastery: intermediate
     - topic: Dart
       mastery: intermediate
+    - topic: Golang
+      mastery: novice
+    - topic: Rust
+      mastery: novice
 
 - skill: 32-bit Microcontroller
   description: 
@@ -38,9 +42,9 @@
       mastery: master
     - topic: I2C
       mastery: master
-    - topic: CAN
-      mastery: intermediate
     - topic: HTTP/HTTPS
+      mastery: intermediate
+    - topic: Websocket
       mastery: intermediate
     - topic: MQTT
       mastery: intermediate
@@ -48,6 +52,10 @@
       mastery: novice
     - topic: UDP
       mastery: novice
+    - topic: CAN
+      mastery: intermediate
+    - topic: CAN DBC
+      mastery: intermediate
 
 - skill: Technology
   description: 
@@ -88,4 +96,8 @@
     - topic: Codeblocks
       mastery: master
     - topic: Eclipse
+      mastery: intermediate
+    - topic: PCAN
+      mastery: intermediate
+    - topic: BUSMASTER
       mastery: intermediate
