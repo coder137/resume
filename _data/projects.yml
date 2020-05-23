@@ -1,16 +1,107 @@
 # Projects
-# uncomment the urls if you wish to display them, and add your own URL
+# - project: 
+#   role: 
+#   duration: 2007 &mdash; Present
+#   # url: "#"
+#   description:
+#   bullet_points:
+#   additional_links:
+#   tags:
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+# CMPE243 Project
+- project: Autonomous RC Car – CANster Truck
+  role: CMPE243 Team Project
+  duration: Feb, 2020 &mdash; May, 2020
+  url: http://socialledge.com/sjsu/index.php/S20:_Canster_Truck
+  description: To develop an autonomous RC Car which can navigate from the source destination to its selected destination using Sensors, Actuators and GPS.
+  bullet_points: 
+    - Each controller was designed as a self-contained module that handled specific tasks. 
+    - Message passing between each node (SJTwo Board) was done over CAN (Controller Area Network) and messages were auto-generated using the CAN DBC format.
+    - Primarily worked on the Geological Controller and interfaced the GPS, Bluetooth and Compass hardware.
+    - Worked on the Haversine algorithm, Waypoints algorithm and the Driver Controller logic.
+  additional_links:
+    - name: Waveshare CAN Transceiver
+      url: https://www.waveshare.com/sn65hvd230-can-board.htm
+    - name: SJTwo Board (LPC4078)
+      url: https://github.com/kammce/SJSU-Dev2
+  tags:
+    - UART
+    - I2C
+    - CAN
+    - GPS
+    - Compass
+    - Bluetooth
+    - NXP
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
+# TODO, Add CMPE220 Project
+
+# CMPE240 Project
+- project: Generate PUF using NAND Flash
+  role: CMPE240 Team Project
+  duration: Sept, 2019 &mdash; Dec, 2019
   # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+  description: Generate a Hardware based PUF/Secure Key by simulating Read and Write Disturb on a SLC NAND Flash.
+  bullet_points:
+    - NAND Flash K9F1G08U0E was bit banged using the B-L475E-IOT01A board.
+    - Program Disturb was successfully recreated on the SLC Flash and the PUF was generated after running the Program Disturb for 10000 cycles.
+    - IEEE based research paper was written and submitted for the CMPE 240 course.
+  additional_links:
+    - name: K9F1G08U0D NandFlash Board
+      url: https://www.waveshare.com/wiki/NandFlash_Board_(A)
+    - name: B-L475E-IOT01A STM32L4
+      url: https://os.mbed.com/platforms/ST-Discovery-L475E-IOT01A/
+    - name: MBED OS
+      url: https://os.mbed.com/
+  tags:
+    - STM32
+    - NAND Flash
+    - PUF
+    - MBED OS
+
+# CMPE244 Project
+- project: Infinity Mirror MP3 Player
+  role: CMPE244 Team Project
+  duration: Oct, 2019 &mdash; Dec, 2019
+  url: http://socialledge.com/sjsu/index.php/F19:_Infinity_Mirror
+  description: Create a MP3 Player with an LED Matrix and OLED Screen for output. A Music based game was to be created and playable on the LED Matrix.
+  bullet_points:
+    - OLED Drivers using the u8g2 library was written and tested on the in-house SJTwo Board (NXP 4078).
+    - APDS-9960 Gesture Sensor and Accelerometer Sensor (MMA8452Q) drivers were written to create the music based game
+    - Mobile application was created using Flutter and Bluetooth was used to send Accelerometer and Joystick sensor data to the SJTwo Board.
+  additional_links:
+    - name: u8g2 C Library
+      url: https://github.com/olikraus/u8g2/
+    - name: u8g2 SSD1306 VCOMH0
+      url: https://github.com/olikraus/u8g2/wiki/u8g2setupc#ssd1306-128x64_vcomh0
+    - name: SJTwo Board (LPC4078)
+      url: https://github.com/kammce/SJSU-Dev2
+  tags:
+    - OLED
+    - NXP
+    - I2C
+    - Flutter
+    - Bluetooth
+
+# Green Homes Project
+- project: Green Homes Project
+  role: Individual Developer
+  duration: Dec, 2018 &mdash; Jun, 2019
+  url: https://www.ketto.org/fundraiser/green-homes-project
+  description: Build an IoT based Plant Watering system that can be controlled remotely as well as perform watering tasks automatically
+  bullet_points:
+    - Successfully built and integrated the frontend (Mobile App), backend (Parse Server) and Slave devices (NodeMCU – ESP12E)
+    - Backend systems were configured with ACLs to handle multiple clients using the same device as well as to add multiple slave devices under the same client.
+    - Client (Mobile App) and Slave device had the ability to send and receive updates in real-time using the Parse Server Websocket integration.
+    - Slave devices had RTC integrated to store alarm information and water the plant at a particular time during the day.
+  additional_links:
+    - name: RTC DS3231
+      url: https://www.maximintegrated.com/en/products/analog/real-time-clocks/DS3231.html
+    - name: Back4App
+      url: https://www.back4app.com/
+  tags:
+    - ESP12E
+    - RTC
+    - Flutter
+    - ACL
+    - HTTP/HTTPS
+    - Websocket

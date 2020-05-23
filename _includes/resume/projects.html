@@ -11,7 +11,34 @@
     <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}"
         itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
     <h4 class="resume-item-details" itemprop="description">{{ project.role }} &bull; {{ project.duration }}</h4>
+
+    <!-- Description -->
     <p class="resume-item-copy">{{ project.description }}</p>
+
+    <!-- Bullet Points -->
+    <ul class="resume-item-list">
+      {% for points in project.bullet_points %}
+      <li>{{ points }}</li>
+      {% endfor %}
+    </ul>
+
+    <!-- Additional Links -->
+    {% if project.additional_links %}
+    <h4 class="resume-item-details" itemprop="links">Additional Links</h4>
+    <ul class="resume-item-list">
+      {% for link in project.additional_links %}
+      <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    <!-- Tags -->
+    {% if project.tags %}
+    {% for tag in project.tags %}
+    <span class="resume-label intermediate">{{ tag }}</span>
+    {% endfor %}
+    {% endif %}
+
   </div>
   {% endfor %}
 
