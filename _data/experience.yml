@@ -1,19 +1,108 @@
 # Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+# SJSU RA
+- company: San Jose State University
+  position: Research Assistant
+  duration: Oct, 2019 &mdash; Present
+  description: "Implemented a Real-Time Monitoring system for Firefighters in high-risk environments using various development boards"
+  bullet_points:
+      - "Integrating the STM32L4 (B-L475E-IOT01A with onboard sensors), Carbon Monoxide sensor with Cellular Modem (BG96 and AT&T Module) and Google / AWS Cloud."
+      - "Using the NRF Thingy 91 with Zephyr OS to recreate the above functionality."
+  links:
+    - name: Carbon Monoxide Sensor (UART Interface)
+      url: https://www.digikey.com/en/product-highlight/s/spec-sensors/carbon-monoxide-sensors
+    - name: B-L475E-IOT01A STM32L4
+      url: https://os.mbed.com/platforms/ST-Discovery-L475E-IOT01A/
+    - name: MBED OS
+      url: https://os.mbed.com/
+    - name: RAK2011 Wislink BG96
+      url: https://www.rakwireless.com/en-us/products/nb-iot-boards/rak2011
+    - name: AT&T IOT Starter Kit
+      url: https://www.business.att.com/products/iot-starter-kit.html
+    - name: NRF Thingy 91
+      url: https://www.nordicsemi.com/Software-and-tools/Prototyping-platforms/Nordic-Thingy-91
+    - name: Zephyr OS with NRF Connect SDK
+      url: https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/introduction.html
+    - name: AWS IOT Core Documentation
+      url: https://docs.aws.amazon.com/iot/latest/developerguide/what-is-aws-iot.html
+    - name: Google IOT Core Documentation
+      url: https://cloud.google.com/iot/docs/quickstart
+  tags: 
+    - Carbon Monoxide Sensor
+    - GPS
+    - LTE
+    - MBED OS
+    - Zephyr OS
 
+# Spartan Hyperloop Club
+- company: Spartan Hyperloop, San Jose State University
+  position: Control and Communications Lead
+  duration: Sept, 2010 &mdash; Present
+  description: "Spartan Hyperloop is a club at San Jose State University that builds pods to compete in the Hyperloop competition"
+  bullet_points:
+    - Transferred data from the NUCLEO-F746ZG over Ethernet UDP to the host computer using the TFTP Server
+    - CAN Drivers were used to communicate within the system peripherals
+    - Worked on the state design of the Spartan Hyperloop pod
+  links:
+    - name: TFTP Server (DHCP Server Configuration)
+      url: https://tftpd32.jounin.net/
+    - name: NUCLEO-F746ZG
+      url: https://os.mbed.com/platforms/ST-Nucleo-F746ZG/
+  tags:
+    - Ethernet
+    - UDP
+    - CAN
+    - MBED OS
+    - STM32 HAL
 
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+# Maroon Electric
+- company: Maroon Electric
+  position: Embedded Systems Developer
+  duration: April, 2018  &mdash; July, 2019
+  description: "A Home Automation startup aimed at making modular and cost effective smart switches"
+  bullet_points:
+    - Successfully achieved a multi-tiered architecture between the hardware, server and mobile application
+    - ESP12E Smart Switch functionality and integration with Raspberry Pi local database
+    - Local and cloud based Parse Server instances were successfully setup
+    - Slave devices (ESP12E) were controlled via custom made Android applications (Native and Flutter)
+  links:
+    - name: Parse Server Documentation
+      url: https://github.com/parse-community/parse-server
+    - name: Raspberry Pi
+      url: https://www.raspberrypi.org/
+    - name: PlatformIO
+      url: https://platformio.org/
+    - name: Linode (Cloud Solutions)
+      url: https://www.linode.com/
+  tags:
+    - ESP12E
+    - Bluetooth
+    - PlatformIO
+    - Flutter
+    - Android
+    - HTTP/HTTPS
+    - Websocket
+
+# Earth Energy EV
+- company: Earth Energy EV
+  position: Embedded Systems Intern
+  duration: Dec, 2017  &mdash; March, 2018
+  description: "An Electric Bike startup aimed at making a sturdy and cost effective solution for Indian Markets"
+  bullet_points:
+    - Implemented a real-time data logging system to get data from the BLDC Motor and Motor Controller
+    - Implemented driver based indexes to modify the system and battery consumption parameters as per customer’s driving style
+    - Worked on the auxiliary system on the Electric Bike to make it a real-time responsive system. 
+    - Integrated the bike with GPS, Bluetooth using Arduino and Raspberry Pi as controllers.
+  links:
+    - name: Raspberry Pi
+      url: https://www.raspberrypi.org/
+    - name: Arduino
+      url: https://www.arduino.cc/
+  tags:
+    - GPS
+    - Bluetooth
+    - 2G/3G/LTE
+    - Arduino
+    - Raspberry Pi Nano
+    - Python
+    - FTP

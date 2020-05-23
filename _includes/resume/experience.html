@@ -10,7 +10,36 @@
   <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
     <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
     <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
-    <p class="resume-item-copy">{{ job.summary }}</p>
+
+    <!-- Description -->
+    <p class="resume-item-copy">{{ job.description }}</p>
+
+    <!-- Bullet Points -->
+    {% if job.bullet_points %}
+    <ul class="resume-item-list">
+      {% for points in job.bullet_points %}
+      <li>{{ points }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    <!-- Job Links -->
+    {% if job.links %}
+    <h4 class="resume-item-details" itemprop="description">Links</h4>
+    <ul class="resume-item-list">
+      {% for link in job.links %}
+      <li><a href="{{ link.url }}">{{ link.name }}</a></li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+
+    <!-- Tags -->
+    {% if job.tags %}
+    {% for tag in job.tags %}
+    <span class="resume-label intermediate">{{ tag }}</span>
+    {% endfor %}
+    {% endif %}
+
   </div><!-- end of resume-item -->
   {% endfor %}
 
