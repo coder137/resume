@@ -1,13 +1,42 @@
 # Jobs
 
+# Blue River Technology
+- company: Blue River Technology
+  position: System Software Intern
+  duration: May, 2020 &mdash; August, 2020
+  description: "Blue River Technology is a smart agriculture based company that has developed See and Spray technology in collaboration with existing John Deere equipments"
+  bullet_points:
+      - "Worked with the development team on the See and Spray Technology to design and implement algorithms and software for a real-time robotics system using C++17 and Python."
+      - "Wrote and tested software on Nvidia based linux systems."
+      - "Assisted in developing tools to enable system introspection and data processing for CAN J1939."
+  links:
+    - name: Google Testing and Mocking
+      url: https://github.com/google/googletest
+    - name: Google Logging
+      url: https://github.com/google/glog
+    - name: Google Flags
+      url: https://github.com/gflags/gflags
+    - name: CAN J1939 Protocol
+      url: https://www.csselectronics.com/screen/page/simple-intro-j1939-explained/language/en
+    - name: Nvidia Xavier
+      url: https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-agx-xavier/
+
+  tags: 
+    - C++17
+    - Python
+    - CAN
+    - J1939
+    - Nvidia
+    - Linux
+
 # SJSU RA
 - company: San Jose State University
   position: Research Assistant
-  duration: Oct, 2019 &mdash; Present
+  duration: Oct, 2019 &mdash; May, 2020
   description: "Implemented a Real-Time Monitoring system for Firefighters in high-risk environments using various development boards"
   bullet_points:
-      - "Integrating the STM32L4 (B-L475E-IOT01A with onboard sensors), Carbon Monoxide sensor with Cellular Modem (BG96 and AT&T Module) and Google / AWS Cloud."
-      - "Using the NRF Thingy 91 with Zephyr OS to recreate the above functionality."
+      - "Integrated the STM32L4 (B-L475E-IOT01A with onboard sensors), Carbon Monoxide sensor with Cellular Modem (BG96 and AT&T Module) and Google / AWS Cloud."
+      - "Used the NRF Thingy 91 with Zephyr OS to recreate the above functionality."
   links:
     - name: Carbon Monoxide Sensor (UART Interface)
       url: https://www.digikey.com/en/product-highlight/s/spec-sensors/carbon-monoxide-sensors
@@ -40,9 +69,9 @@
   duration: Sept, 2010 &mdash; Present
   description: "Spartan Hyperloop is a club at San Jose State University that builds pods to compete in the Hyperloop competition"
   bullet_points:
-    - Transferred data from the NUCLEO-F746ZG over Ethernet UDP to the host computer using the TFTP Server
-    - CAN Drivers were used to communicate within the system peripherals
-    - Worked on the state design of the Spartan Hyperloop pod
+    - "Transferred data from the NUCLEO-F746ZG over Ethernet UDP to the host computer using the TFTP Server."
+    - "CAN Drivers were used to communicate within the system peripherals."
+    - "Worked on the state design of the Spartan Hyperloop pod."
   links:
     - name: TFTP Server (DHCP Server Configuration)
       url: https://tftpd32.jounin.net/
@@ -61,10 +90,10 @@
   duration: April, 2018  &mdash; July, 2019
   description: "A Home Automation startup aimed at making modular and cost effective smart switches"
   bullet_points:
-    - Successfully achieved a multi-tiered architecture between the hardware, server and mobile application
-    - ESP12E Smart Switch functionality and integration with Raspberry Pi local database
-    - Local and cloud based Parse Server instances were successfully setup
-    - Slave devices (ESP12E) were controlled via custom made Android applications (Native and Flutter)
+    - "Successfully achieved a multi-tiered architecture between the hardware, server and mobile application."
+    - "ESP12E Smart Switch functionality and integration with Raspberry Pi local database."
+    - "Local and cloud based Parse Server instances were successfully setup."
+    - "Slave devices (ESP12E) were controlled via custom made Android applications (Native and Flutter)."
   links:
     - name: Parse Server Documentation
       url: https://github.com/parse-community/parse-server
@@ -89,10 +118,10 @@
   duration: Dec, 2017  &mdash; March, 2018
   description: "An Electric Bike startup aimed at making a sturdy and cost effective solution for Indian Markets"
   bullet_points:
-    - Implemented a real-time data logging system to get data from the BLDC Motor and Motor Controller
-    - Implemented driver based indexes to modify the system and battery consumption parameters as per customer’s driving style
-    - Worked on the auxiliary system on the Electric Bike to make it a real-time responsive system. 
-    - Integrated the bike with GPS, Bluetooth using Arduino and Raspberry Pi as controllers.
+    - "Implemented a real-time data logging system to get data from the BLDC Motor and Motor Controller."
+    - "Implemented driver based indexes to modify the system and battery consumption parameters as per customer’s driving style."
+    - "Worked on the auxiliary system on the Electric Bike to make it a real-time responsive system."
+    - "Integrated the bike with GPS, Bluetooth using Arduino and Raspberry Pi as controllers."
   links:
     - name: Raspberry Pi
       url: https://www.raspberrypi.org/
