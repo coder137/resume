@@ -8,6 +8,41 @@
 #   additional_links:
 #   tags:
 
+# STM32 Repo
+- project: STM32 from Scratch
+  role: Individual Project
+  duration: March, 2020 &mdash; Present
+  url: https://github.com/coder137/STM32-Repo
+  description: To create an enterprise-level firmware stack from scratch using the GCC ARM toolchain
+  bullet_points:
+    - Linker scripts were written and customized for C and C++ language support and the newlib library. Specific compiler and linker flags were used to optimize for the code size and speed.
+    - ARM CMSIS and FreeRTOS software stacks were used with the project and integrated with buildsystems like CMake and Meson.
+    - Wrote GPIO, Interrupt and UART drivers and attached them to newlib library syscalls.
+  additional_links:
+    - name: Linker Script
+      url: https://sourceware.org/binutils/docs/ld/Scripts.html
+    - name: FreeRTOS
+      url: https://www.freertos.org/
+    - name: ARM CMSIS 5
+      url: https://github.com/ARM-software/CMSIS_5
+    - name: ARM GCC Toolchain
+      url: https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads
+    - name: Newlib library
+      url: https://sourceware.org/newlib/
+    - name: CMake buildsystem
+      url: https://cmake.org/
+    - name: Meson buildsystem
+      url: https://mesonbuild.com/
+  tags:
+    - STM32
+    - GPIO
+    - UART
+    - ARM
+    - OpenOCD
+    - FreeRTOS
+    - CMake
+    - C++17
+
 # CMPE243 Project
 - project: Autonomous RC Car – CANster Truck
   role: CMPE243 Team Project
