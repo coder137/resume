@@ -42,20 +42,20 @@
       mastery: master
     - topic: I2C
       mastery: master
+    - topic: CAN
+      mastery: intermediate
+    - topic: CAN DBC
+      mastery: intermediate
+    - topic: MQTT
+      mastery: intermediate
     - topic: HTTP/HTTPS
       mastery: intermediate
     - topic: Websocket
-      mastery: intermediate
-    - topic: MQTT
       mastery: intermediate
     - topic: TCP/IP
       mastery: novice
     - topic: UDP
       mastery: novice
-    - topic: CAN
-      mastery: intermediate
-    - topic: CAN DBC
-      mastery: intermediate
 
 - skill: Technology
   description: 
