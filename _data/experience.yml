@@ -1,6 +1,22 @@
 # Jobs
 
 # Blue River Technology
+- company: TuringSense
+  position: Firmware Engineer Intern
+  duration: December, 2020 &mdash; Present
+  description: "TuringSense is a pioneer is wearable sports technology and is revolutionizing training with innovative multi-sensor, high-speed full-body motion analysis."
+  bullet_points:
+      - "Part of the core wearable teaming to improve throughput and performance for the NRF52840 microcontrollers"
+  links:
+    - name: IAR Embedded Workbench IDE
+      url: https://www.iar.com/iar-embedded-workbench/
+    - name: NRF 15 SDK
+      url: https://www.nordicsemi.com/Software-and-tools/Software/nRF5-SDK
+
+  tags: 
+
+
+# Blue River Technology
 - company: Blue River Technology
   position: System Software Intern
   duration: May, 2020 &mdash; August, 2020

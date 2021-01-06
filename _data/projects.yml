@@ -8,16 +8,49 @@
 #   additional_links:
 #   tags:
 
+# Connected Healthcare
+- project: Connected and Distributed Sensing System for Healthcare 
+  role: Master's Project
+  duration: August 2020 &mdash; Present
+  url: https://github.com/Connected-Healthcare
+  description: To create a peer to peer mesh based network using Google’s OpenThread framework to monitor large crowds, as well as to collect and forward data to healthcare personnel for further analysis and diagnosis.
+  bullet_points: 
+    - Architectured the OpenThread CLI project for Texas Instruments CC1352R1 and CC1352P2 chips using CMake with the ARM GCC toolchain, OpenOCD debugging and unit-testing frameworks.
+    - Interfaced the SGP30, SPEC CO sensors with the onboard sensors on the B-L475E-IOT01A STM32 board using the MBED OS.
+    - Configured the STM32 board as an I2C Slave device for the CC1352R1 board while simultaneously sending data over TCP to a local server for data storage.
+  additional_links:
+    - name: OpenThread
+      url: https://openthread.io/
+    - name: Unity (Unit-Test)
+      url: http://www.throwtheswitch.org/unity
+    - name: Fake Function Framework
+      url: https://github.com/meekrosoft/fff
+    - name: CMake buildsystem
+      url: https://cmake.org/
+    - name: OpenOCD
+      url: http://openocd.org/
+    - name: MBED OS
+      url: https://os.mbed.com/mbed-os/
+  tags:
+    - TI-RTOS
+    - OpenOCD
+    - SGP30
+    - Spec CO
+    - MAX30101 (Heartrate)
+    - B-L475-IOT01A
+    - MBED OS
+    - Unit-Test and Mock
+
 # STM32 Repo
-- project: STM32 from Scratch
+- project: Enterprise Firmware platform development
   role: Individual Project
   duration: March, 2020 &mdash; Present
   url: https://github.com/coder137/STM32-Repo
   description: To create an enterprise-level firmware stack from scratch using the GCC ARM toolchain
   bullet_points:
     - Linker scripts were written and customized for C and C++ language support and the newlib library. Specific compiler and linker flags were used to optimize for the code size and speed.
-    - ARM CMSIS and FreeRTOS software stacks were used with the project and integrated with buildsystems like CMake and Meson.
-    - Wrote GPIO, Interrupt and UART drivers and attached them to newlib library syscalls.
+    - ARM CMSIS and FreeRTOS software stacks were used with the project and integrated with buildsystems like CMake and Meson to compile, flash and debug the target board using ST-Link Programmer, OpenOCD and GDB.
+    - Platform agnostic interfaces and hardware bring-up for the STM32L4 and LPC4078 microcontrollers.
   additional_links:
     - name: Linker Script
       url: https://sourceware.org/binutils/docs/ld/Scripts.html

@@ -9,8 +9,6 @@
       mastery: intermediate
     - topic: Dart
       mastery: intermediate
-    - topic: Golang
-      mastery: novice
     - topic: Rust
       mastery: novice
 
@@ -18,16 +16,20 @@
   description: 
     - topic: NXP LPC4078
       mastery: master
-    - topic: ESP8266/12E/32 WiFi Chip
-      mastery: master
     - topic: ARM Cortex M4 STM32L4
       mastery: intermediate
+    - topic: TI CC1352R1 / CC1352P2
+      mastery: intermediate
+    - topic: ESP8266/12E/32 WiFi Chip
+      mastery: master
     - topic: TI TM4C123G
       mastery: intermediate
 
 - skill: Microprocessor
   description: 
     - topic: Raspberry Pi
+      mastery: intermediate
+    - topic: Beaglebone Black
       mastery: intermediate
     - topic: BG96
       mastery: intermediate
@@ -65,19 +67,31 @@
       mastery: master
     - topic: Lidar
       mastery: intermediate
-    - topic: Compass
-      mastery: master
+    - topic: OpenThread
+      mastery: intermediate
 
 - skill: Software
   description: 
-    - topic: Embedded Linux
-      mastery: novice
     - topic: FreeRTOS
       mastery: master
     - topic: Zephyr OS
       mastery: intermediate
+    - topic: TI-RTOS
+      mastery: intermediate
+    - topic: OpenOCD
+      mastery: intermediate
+    - topic: CMake
+      mastery: master
     - topic: Git
       mastery: intermediate
+    - topic: Unity (Unit Test)
+      mastery: master
+    - topic: CMock
+      mastery: master
+    - topic: Fake Function Framework
+      mastery: intermediate
+    - topic: Embedded Linux
+      mastery: novice
     - topic: Flutter
       mastery: intermediate
     - topic: Android
@@ -89,11 +103,11 @@
       mastery: master
     - topic: Kiel uVision
       mastery: intermediate
+    - topic: IAR Embedded Workbench
+      mastery: intermediate
     - topic: STM32CubeIde
       mastery: master
     - topic: VSCode
-      mastery: master
-    - topic: Codeblocks
       mastery: master
     - topic: Eclipse
       mastery: intermediate
